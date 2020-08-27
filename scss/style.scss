@@ -1,0 +1,451 @@
+.first-display {
+    background: #FCD949;
+    background-image: url("../img/fon1.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    color: white;
+    
+}
+.first-main-text{
+    color:white;
+    font-family: 'Futura PT Extra';
+    font-weight: 800;
+    font-size: 39px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top:310px;
+    & span{
+        font-size: 64px;
+    }
+}
+.first-batonchiki{
+    display: flex;
+    justify-content: center;
+    margin-top:-50px;
+}
+.second-display {
+    background: #FCD949;
+    background-image: url("../img/fon2.png") ;
+    background-repeat: no-repeat;
+    color: white;
+    background-position-y: bottom;
+    background-position-x: center;
+    
+}
+.second-main-text{
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 123px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #1D1E1B;
+    margin-top:-100px;
+    padding-bottom:35px;
+}
+.second-down-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    background-size: contain;
+    color: #000000;
+    padding-bottom:200px;
+    
+}
+.third-display {
+    
+    background: #1D1E1B;
+    background-image: url("../img/fon3.png") ;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    background-position-x: center;
+    color: white;
+    
+    
+}
+.trava{
+    margin-top:-420px;
+    margin-left:-390px;
+}
+.third-frukti{
+    display: flex;
+    justify-content: center;
+    margin-top:-200px;
+}
+.third-upper-text {
+    margin-top:30px;
+    padding-bottom:91px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #FFFFFF;
+    & span{
+        font-size: 36px;
+    }
+}
+.third-kvadrati{
+    padding-bottom: 79px;
+}
+.third-down-text{
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    padding-bottom:88px;
+    color: #FFFFFF;
+    & span {
+        color: #FCD949;
+    }
+}
+.third-paketi{
+    display: flex;
+    justify-content: center;
+    padding-bottom:112px;
+}
+.knopka {
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+    padding:13px 80px;
+    background: #FCD949;
+    box-shadow: 0px 0px 40px rgba(252, 217, 73, 0.35);
+    
+}
+.fourth-display {
+    background: #1D1E1B;
+    background-image: url("../img/fon4.png") ;
+    background-repeat: no-repeat;
+    color: #FCD949;
+    
+}
+.katalog-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 82px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FCD949;
+    margin-top:226px;
+    padding-bottom:125px;
+}
+.coupe {
+    padding-bottom: 50px;
+}
+.selection-name {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+    margin-left:65px;
+    margin-top:-40px;
+}
+.s2-name {
+    margin-left:50px;
+}
+.s3-name {
+    margin-left:33px;
+    margin-top:-43px;
+}
+.s4-name {
+    margin-left:65px;
+    margin-top:-43px;
+}
+.s5-name {
+    margin-left:50px;
+    margin-top:-43px;
+}
+.s6-name {
+    margin-left:60px;
+    margin-top:-43px;
+}
+.sostav{
+    position: absolute;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #000000;
+    margin-top:-165px;
+    margin-left:170px;
+
+}
+.ingridients {
+    position:absolute;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    margin-left:190px;
+    margin-top:-140px;
+    color: #000000;
+}
+.cena {
+    position: absolute;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top:-40px;
+    margin-left:340px;
+}
+.cena-sec {
+    margin-top:-40px;
+    margin-left:345px;
+}
+.sales {
+    margin-top:48px;
+    padding-bottom:57px;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 25px;
+    /* or 139% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    & span {
+        color: #FCD949;
+        &.text-back {
+            color:black;
+            background:#FCD949;
+        }
+    }
+}
+.knopka-sec {
+    margin-bottom:47px;
+}
+.fifth-display {
+    background: #FCD949;
+    background-image: url("../img/fon5.png") ;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    color: white;
+    
+}
+.zavod-text{
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 82px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FCD949;
+    margin-top:158px;
+    padding-bottom:70px;
+}
+.fifth-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    padding-bottom:168px;
+    color: #FFFFFF;
+}
+.sixth-display{
+    background: #FCD949;
+    background-image: url("../img/fon6.png") ;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -50%;
+}
+.sixth-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 87px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    & span {
+        font-size: 71px;
+    }
+    padding-top: 40px;
+    padding-bottom: 260px;
+}
+.box {
+    position: absolute;
+    left:0;
+}
+.seventh-display{
+    
+    background-image: url("../img/fon7.png") ;
+    background-position-y: bottom;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+.seventh-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+    & span {
+        font-weight: 600;
+    }
+    padding-bottom:47px;
+}
+.knopka-third{
+    margin-bottom:71px;
+}
+.eigth-text{
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #000000;
+    margin-top:45px;
+    margin-bottom:40px;
+    & span{
+        font-weight: 600;
+        font-size: 48px;
+    }
+}
+.insta-text{
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #000000;
+    margin-left:15px;
+}
+.insta {
+    margin-bottom:72px;
+}
+@media screen and (max-width: 576px){ 
+    .coupe{
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        padding:0;
+    }
+    .knopka {
+        margin:0 auto;
+    }
+    .box {
+        display:none;
+    }
+    .selection{
+        justify-content: center;
+    }
+    .first-main-text {
+        font-size: 24px;
+        padding: 0;
+        margin-top:140px;
+        line-height: 25px;
+        & span {
+            font-size: 30px;
+        }
+    }
+    .first-batonchiki img{
+        width: 70%;
+    }
+    .second-main-text{
+        font-size: 55px;
+    }
+    .third-kvadrati img{
+        margin: 0 auto;
+    }
+    .katalog-text {
+        padding: 0;
+        margin:0;
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+    .third-paketi{
+        padding-bottom: 40px;
+    }
+    .zavod-text{
+        margin-top:80px;
+        padding-bottom:30px;
+    }
+    .fifth-text {
+        padding-bottom: 130px;
+    }
+    .sixth-text {
+        line-height: 45px;
+        padding-bottom:30px;
+        & span {
+            font-size: 45px;
+        }
+    }
+    .seventh-text {
+        margin-top:30px;
+        padding: 0;
+        margin-bottom:30px;
+    }
+    .seventh-display{
+        background-position-y: top;
+    }
+    .strelka img {
+        display: none;
+    }
+    .knopka-third {
+        margin-bottom: 40px;;
+    }
+    .eigth-text {
+        margin:0;
+    }
+    .insta {
+        margin:0;
+        margin-top:20px;
+        margin-bottom: 20px;;
+    }
+   
+}
